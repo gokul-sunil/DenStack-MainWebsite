@@ -1,11 +1,23 @@
 'use client';
-
+import { useRef, useState } from 'react';
 import { ArrowRight, Play, Sparkles } from 'lucide-react';
 import { Button } from '@/app/components/ui/button';
 import { motion } from 'motion/react';
-const denAlignHeroLogo = '/assets/51132c9e1a264f6426509e988a49c2be42c8646c.png';
+const denAlignHeroLogo = '/assets/denstackLogo.png';
 
 export function HeroSection() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+const [isPlaying, setIsPlaying] = useState(false);
+const handlePlayPause = () => {
+  if (!videoRef.current) return;
+  if (isPlaying) {
+    videoRef.current.pause();
+    setIsPlaying(false);
+  } else {
+    videoRef.current.play();
+    setIsPlaying(true);
+  }
+};
   return (
     <section className="relative pt-16 pb-10 sm:pt-24 sm:pb-16 lg:pt-40 lg:pb-32 overflow-visible bg-transparent">
       <div className="max-w-[1280px] mx-auto px-3 sm:px-6 lg:px-8 relative z-10">
@@ -18,14 +30,16 @@ export function HeroSection() {
             className="w-full max-w-2xl"
           >
             {/* DenAlign Logo */}
-            <motion.div
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1, duration: 0.6 }}
-              className="mb-6 sm:mb-8"
-            >
-              <img src={denAlignHeroLogo} alt="DenAlign" className="h-12 sm:h-16 md:h-20 w-auto" />
-            </motion.div>
+           <motion.div
+  initial={{ opacity: 0, y: -10 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.1, duration: 0.6 }}
+  className="mb-6 sm:mb-8"
+>
+  <div className="inline-block bg-gray-900 px-4 py-2 rounded-xl shadow-md">
+    <img src={denAlignHeroLogo} alt="DenAlign" className="h-12 sm:h-16 md:h-20 w-auto" />
+  </div>
+</motion.div>
 
             {/* Badge */}
             <motion.div
@@ -93,40 +107,55 @@ export function HeroSection() {
             className="relative hidden md:block"
           >
             {/* Main Dashboard Card */}
-            <motion.div
-              whileHover={{ y: -8 }}
-              transition={{ duration: 0.3 }}
-              className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-gradient-to-br from-gray-900 to-gray-800"
-            >
-              {/* Video Preview - Full Card */}
-              <div className="relative aspect-[5/4]">
-                <img 
-                  src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW50YWwlMjBvZmZpY2UlMjBhcHBvaW50bWVudCUyMGJvb2tpbmd8ZW58MXx8fHwxNzY5NTg1MTMwfDA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Dental Practice Video"
-                  className="w-full h-full object-cover"
-                />
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors group">
-                  <motion.div
-                    animate={{ scale: [1, 1.1, 1] }}
-                    transition={{ duration: 2, repeat: Infinity }}
-                    className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-2xl cursor-pointer group-hover:scale-110 transition-transform"
-                  >
-                    <svg 
-                      className="w-12 h-12 text-blue-600 ml-1" 
-                      fill="currentColor" 
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </motion.div>
-                </div>
-                {/* Duration Badge */}
-                <div className="absolute bottom-4 right-4 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded text-white text-sm font-semibold">
-                  2:30
-                </div>
-              </div>
-            </motion.div>
+          <motion.div
+  whileHover={{ y: -8 }}
+  transition={{ duration: 0.3 }}
+  className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-gradient-to-br from-gray-900 to-gray-800"
+>
+  <div className="relative aspect-[5/4]">
+    <video
+      ref={videoRef}
+      className="w-full h-full object-cover"
+      preload="metadata"
+      onEnded={() => setIsPlaying(false)}
+    >
+      <source src="/assets/your-video.mp4" type="video/mp4" />
+    </video>
+
+    {/* Overlay — hides when playing */}
+    <div
+      onClick={handlePlayPause}
+      className={`absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors cursor-pointer group ${
+        isPlaying ? 'opacity-0 hover:opacity-100' : 'opacity-100'
+      }`}
+    >
+      <motion.div
+        animate={{ scale: [1, 1.1, 1] }}
+        transition={{ duration: 2, repeat: Infinity }}
+        className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform"
+      >
+        {isPlaying ? (
+          // Pause icon
+          <svg className="w-10 h-10 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+          </svg>
+        ) : (
+          // Play icon
+          <svg className="w-12 h-12 text-blue-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        )}
+      </motion.div>
+    </div>
+
+    {/* Duration Badge — hides when playing */}
+    {!isPlaying && (
+      <div className="absolute bottom-4 right-4 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded text-white text-sm font-semibold">
+        2:30
+      </div>
+    )}
+  </div>
+</motion.div>
 
             {/* Floating Cards - Hidden on smaller screens */}
             <motion.div
