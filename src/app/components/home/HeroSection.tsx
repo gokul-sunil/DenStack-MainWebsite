@@ -110,48 +110,49 @@ const handlePlayPause = () => {
           <motion.div
   whileHover={{ y: -8 }}
   transition={{ duration: 0.3 }}
-  className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-gradient-to-br from-gray-900 to-gray-800"
+  className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-gray-900"
 >
   <div className="relative aspect-[5/4]">
     <video
       ref={videoRef}
-      className="w-full h-full object-cover"
+      className="w-full h-full object-cover opacity-80"
       preload="metadata"
       onEnded={() => setIsPlaying(false)}
     >
-      <source src="/assets/your-video.mp4" type="video/mp4" />
+      <source src="/assets/Denstack_video.mp4" type="video/mp4" />
     </video>
 
-    {/* Overlay — hides when playing */}
+    {/* Dull dark overlay always present */}
+    <div className="absolute inset-0 bg-black/40" />
+
+    {/* Play/Pause overlay */}
     <div
       onClick={handlePlayPause}
-      className={`absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors cursor-pointer group ${
+      className={`absolute inset-0 flex items-center justify-center transition-opacity cursor-pointer group ${
         isPlaying ? 'opacity-0 hover:opacity-100' : 'opacity-100'
       }`}
     >
-      <motion.div
-        animate={{ scale: [1, 1.1, 1] }}
-        transition={{ duration: 2, repeat: Infinity }}
-        className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform"
-      >
+      <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 group-hover:bg-white transition-all">
         {isPlaying ? (
-          // Pause icon
-          <svg className="w-10 h-10 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+          <svg className="w-7 h-7 text-gray-800" fill="currentColor" viewBox="0 0 24 24">
             <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
           </svg>
         ) : (
-          // Play icon
-          <svg className="w-12 h-12 text-blue-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
+          <svg className="w-8 h-8 text-gray-800 ml-1" fill="currentColor" viewBox="0 0 24 24">
             <path d="M8 5v14l11-7z" />
           </svg>
         )}
-      </motion.div>
+      </div>
     </div>
 
-    {/* Duration Badge — hides when playing */}
+    {/* Testimonial overlay - bottom */}
     {!isPlaying && (
-      <div className="absolute bottom-4 right-4 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded text-white text-sm font-semibold">
-        2:30
+      <div className="absolute bottom-0 left-0 right-0 px-6 py-5 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+        <p className="text-white font-bold text-base leading-snug mb-1">
+          "DentaStack helped us grow from a solo startup to a modern, efficient practice."
+        </p>
+        <p className="text-gray-300 text-sm font-semibold">Dr. Sarah Martinez</p>
+        <p className="text-gray-400 text-xs">Owner, Martinez Dental Group</p>
       </div>
     )}
   </div>
