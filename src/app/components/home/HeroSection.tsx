@@ -3,7 +3,7 @@ import { useRef, useState } from 'react';
 import { ArrowRight, Play, Sparkles } from 'lucide-react';
 import { Button } from '@/app/components/ui/button';
 import { motion } from 'motion/react';
-const denAlignHeroLogo = '/assets/denstackLogo.png';
+const denAlignHeroLogo = '/assets/51132c9e1a264f6426509e988a49c2be42c8646c.png';
 
 export function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -36,7 +36,7 @@ const handlePlayPause = () => {
   transition={{ delay: 0.1, duration: 0.6 }}
   className="mb-6 sm:mb-8"
 >
-  <div className="inline-block bg-gray-900 px-4 py-2 rounded-xl shadow-md">
+  <div className="inline-block  px-4 py-2 ">
     <img src={denAlignHeroLogo} alt="DenAlign" className="h-12 sm:h-16 md:h-20 w-auto" />
   </div>
 </motion.div>
