@@ -1,0 +1,336 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/blog/[slug]",
+      "regex": "^/blog/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/blog/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/ai-capabilities",
+      "regex": "^/ai\\-capabilities(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ai\\-capabilities(?:/)?$"
+    },
+    {
+      "page": "/aligners",
+      "regex": "^/aligners(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/aligners(?:/)?$"
+    },
+    {
+      "page": "/ambient-display",
+      "regex": "^/ambient\\-display(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ambient\\-display(?:/)?$"
+    },
+    {
+      "page": "/analytics",
+      "regex": "^/analytics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/analytics(?:/)?$"
+    },
+    {
+      "page": "/analytics-reporting",
+      "regex": "^/analytics\\-reporting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/analytics\\-reporting(?:/)?$"
+    },
+    {
+      "page": "/billing-revenue",
+      "regex": "^/billing\\-revenue(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing\\-revenue(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/book-demo",
+      "regex": "^/book\\-demo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/book\\-demo(?:/)?$"
+    },
+    {
+      "page": "/careers",
+      "regex": "^/careers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/careers(?:/)?$"
+    },
+    {
+      "page": "/case-studies",
+      "regex": "^/case\\-studies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies(?:/)?$"
+    },
+    {
+      "page": "/clinic-finance-payroll",
+      "regex": "^/clinic\\-finance\\-payroll(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/clinic\\-finance\\-payroll(?:/)?$"
+    },
+    {
+      "page": "/clinical-tools",
+      "regex": "^/clinical\\-tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/clinical\\-tools(?:/)?$"
+    },
+    {
+      "page": "/clinical-workflows",
+      "regex": "^/clinical\\-workflows(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/clinical\\-workflows(?:/)?$"
+    },
+    {
+      "page": "/comparison",
+      "regex": "^/comparison(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/comparison(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/densmile",
+      "regex": "^/densmile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/densmile(?:/)?$"
+    },
+    {
+      "page": "/dental-startups",
+      "regex": "^/dental\\-startups(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dental\\-startups(?:/)?$"
+    },
+    {
+      "page": "/dso",
+      "regex": "^/dso(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dso(?:/)?$"
+    },
+    {
+      "page": "/endodontists",
+      "regex": "^/endodontists(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/endodontists(?:/)?$"
+    },
+    {
+      "page": "/events",
+      "regex": "^/events(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/events(?:/)?$"
+    },
+    {
+      "page": "/faqs",
+      "regex": "^/faqs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faqs(?:/)?$"
+    },
+    {
+      "page": "/features-overview",
+      "regex": "^/features\\-overview(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/features\\-overview(?:/)?$"
+    },
+    {
+      "page": "/implant-surgeons",
+      "regex": "^/implant\\-surgeons(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/implant\\-surgeons(?:/)?$"
+    },
+    {
+      "page": "/integrations",
+      "regex": "^/integrations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/integrations(?:/)?$"
+    },
+    {
+      "page": "/mobile-dentistry",
+      "regex": "^/mobile\\-dentistry(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mobile\\-dentistry(?:/)?$"
+    },
+    {
+      "page": "/multi-location",
+      "regex": "^/multi\\-location(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/multi\\-location(?:/)?$"
+    },
+    {
+      "page": "/orthodontists",
+      "regex": "^/orthodontists(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/orthodontists(?:/)?$"
+    },
+    {
+      "page": "/partners",
+      "regex": "^/partners(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/partners(?:/)?$"
+    },
+    {
+      "page": "/patient-experience",
+      "regex": "^/patient\\-experience(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/patient\\-experience(?:/)?$"
+    },
+    {
+      "page": "/patient-management",
+      "regex": "^/patient\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/patient\\-management(?:/)?$"
+    },
+    {
+      "page": "/pediatric-dentists",
+      "regex": "^/pediatric\\-dentists(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pediatric\\-dentists(?:/)?$"
+    },
+    {
+      "page": "/periodontists",
+      "regex": "^/periodontists(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/periodontists(?:/)?$"
+    },
+    {
+      "page": "/podcasts",
+      "regex": "^/podcasts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/podcasts(?:/)?$"
+    },
+    {
+      "page": "/practice-growth",
+      "regex": "^/practice\\-growth(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/practice\\-growth(?:/)?$"
+    },
+    {
+      "page": "/practice-management",
+      "regex": "^/practice\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/practice\\-management(?:/)?$"
+    },
+    {
+      "page": "/pricing",
+      "regex": "^/pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing(?:/)?$"
+    },
+    {
+      "page": "/resources",
+      "regex": "^/resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources(?:/)?$"
+    },
+    {
+      "page": "/revenue-cycle",
+      "regex": "^/revenue\\-cycle(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/revenue\\-cycle(?:/)?$"
+    },
+    {
+      "page": "/reviews",
+      "regex": "^/reviews(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/reviews(?:/)?$"
+    },
+    {
+      "page": "/solo-practice",
+      "regex": "^/solo\\-practice(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solo\\-practice(?:/)?$"
+    },
+    {
+      "page": "/specialty-clinics",
+      "regex": "^/specialty\\-clinics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/specialty\\-clinics(?:/)?$"
+    },
+    {
+      "page": "/whitepapers",
+      "regex": "^/whitepapers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/whitepapers(?:/)?$"
+    },
+    {
+      "page": "/who-we-serve",
+      "regex": "^/who\\-we\\-serve(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/who\\-we\\-serve(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

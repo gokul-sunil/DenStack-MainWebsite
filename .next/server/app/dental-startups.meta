@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dental-startups/layout,_N_T_/dental-startups/page,_N_T_/dental-startups"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/dental-startups/__PAGE__",
+    "/dental-startups",
+    "/_index",
+    "/_head"
+  ]
+}

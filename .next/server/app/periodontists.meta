@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/periodontists/layout,_N_T_/periodontists/page,_N_T_/periodontists"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/periodontists/__PAGE__",
+    "/periodontists",
+    "/_index",
+    "/_head"
+  ]
+}

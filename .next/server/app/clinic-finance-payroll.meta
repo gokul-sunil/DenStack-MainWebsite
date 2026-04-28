@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/clinic-finance-payroll/layout,_N_T_/clinic-finance-payroll/page,_N_T_/clinic-finance-payroll"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/clinic-finance-payroll/__PAGE__",
+    "/clinic-finance-payroll",
+    "/_index",
+    "/_head"
+  ]
+}

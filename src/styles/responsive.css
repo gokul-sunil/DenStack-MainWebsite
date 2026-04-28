@@ -1,0 +1,237 @@
+/* 
+ * Responsive Design System
+ * Mobile-first approach with specific breakpoints for premium enterprise layouts
+ */
+
+@layer utilities {
+  /* Container Spacing - Responsive padding */
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-padding-lg {
+    @apply px-6 sm:px-8 lg:px-12;
+  }
+
+  /* Motion.js Scroll Container Fix - Ensures proper positioning for scroll animations */
+  .scroll-container {
+    position: relative;
+  }
+
+  /* Premium Section Layout - 32%/68% on desktop, stacked on mobile */
+  .premium-section-grid {
+    @apply grid grid-cols-1 lg:grid-cols-[35%_65%] gap-0;
+  }
+
+  .premium-section-grid-alt {
+    @apply grid grid-cols-1 lg:grid-cols-[32%_68%] gap-0;
+  }
+
+  /* Responsive Typography */
+  .heading-hero {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl;
+  }
+
+  .heading-xl {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  .heading-lg {
+    @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl;
+  }
+
+  .heading-md {
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+  }
+
+  .heading-sm {
+    @apply text-base sm:text-lg md:text-xl lg:text-2xl;
+  }
+
+  .body-lg {
+    @apply text-base sm:text-lg md:text-xl;
+  }
+
+  .body-base {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+
+  .body-sm {
+    @apply text-xs sm:text-sm md:text-base;
+  }
+
+  /* Responsive Spacing */
+  .section-padding {
+    @apply py-12 sm:py-16 md:py-20 lg:py-24 xl:py-32;
+  }
+
+  .section-padding-sm {
+    @apply py-8 sm:py-12 md:py-16 lg:py-20;
+  }
+
+  .section-padding-lg {
+    @apply py-16 sm:py-20 md:py-24 lg:py-32 xl:py-40;
+  }
+
+  /* Card & Container Padding */
+  .card-padding {
+    @apply p-4 sm:p-6 md:p-8 lg:p-10;
+  }
+
+  .card-padding-sm {
+    @apply p-3 sm:p-4 md:p-6;
+  }
+
+  .card-padding-lg {
+    @apply p-6 sm:p-8 md:p-10 lg:p-12;
+  }
+
+  /* Gap Utilities */
+  .gap-responsive {
+    @apply gap-4 sm:gap-6 md:gap-8 lg:gap-10;
+  }
+
+  .gap-responsive-sm {
+    @apply gap-2 sm:gap-3 md:gap-4 lg:gap-6;
+  }
+
+  .gap-responsive-lg {
+    @apply gap-6 sm:gap-8 md:gap-10 lg:gap-12;
+  }
+
+  /* Border Radius Responsive */
+  .rounded-card {
+    @apply rounded-xl sm:rounded-2xl lg:rounded-3xl;
+  }
+
+  .rounded-section {
+    @apply rounded-lg sm:rounded-xl lg:rounded-2xl;
+  }
+
+  /* Grid Layouts */
+  .grid-responsive-2 {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6;
+  }
+
+  .grid-responsive-3 {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6;
+  }
+
+  .grid-responsive-4 {
+    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4;
+  }
+
+  .grid-responsive-6 {
+    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4;
+  }
+
+  /* Button Sizing */
+  .btn-responsive {
+    @apply px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base;
+  }
+
+  .btn-responsive-lg {
+    @apply px-6 py-3 sm:px-8 sm:py-4 text-base sm:text-lg;
+  }
+
+  /* Icon Sizing */
+  .icon-responsive {
+    @apply w-4 h-4 sm:w-5 sm:h-5;
+  }
+
+  .icon-responsive-lg {
+    @apply w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7;
+  }
+
+  .icon-responsive-xl {
+    @apply w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12;
+  }
+
+  /* Hide/Show Utilities */
+  .mobile-only {
+    @apply block lg:hidden;
+  }
+
+  .desktop-only {
+    @apply hidden lg:block;
+  }
+
+  .tablet-up {
+    @apply hidden sm:block;
+  }
+
+  /* Touch Target Sizes (min 44x44px for mobile) */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+
+  /* Responsive Max Width */
+  .max-w-responsive {
+    @apply max-w-full sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl;
+  }
+
+  /* Safe Area (for mobile notches) */
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Aspect Ratios */
+  .aspect-video-responsive {
+    @apply aspect-video;
+  }
+
+  .aspect-square-responsive {
+    @apply aspect-square;
+  }
+}
+
+/* Custom Media Queries for specific breakpoints */
+@media (max-width: 640px) {
+  /* Reduce animation complexity on mobile */
+  .reduce-motion-mobile {
+    animation-duration: 0.3s !important;
+    transition-duration: 0.2s !important;
+  }
+
+  /* Smaller shadows on mobile */
+  .shadow-responsive {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* Tablet specific adjustments */
+  .shadow-responsive {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* Desktop shadows */
+  .shadow-responsive {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06) !important;
+  }
+}
+
+/* Overflow handling for mobile */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Prevent horizontal scroll from animations */
+  .no-overflow-mobile {
+    overflow-x: hidden;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
