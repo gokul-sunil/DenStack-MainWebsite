@@ -3,7 +3,7 @@ import { useRef, useState } from 'react';
 import { ArrowRight, Play, Sparkles } from 'lucide-react';
 import { Button } from '@/app/components/ui/button';
 import { motion } from 'motion/react';
-const denAlignHeroLogo = '/assets/51132c9e1a264f6426509e988a49c2be42c8646c.png';
+const denAlignHeroLogo = '/assets/denstackLogo.png';
 
 export function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -30,15 +30,19 @@ const handlePlayPause = () => {
             className="w-full max-w-2xl"
           >
             {/* DenAlign Logo */}
-           <motion.div
+ <motion.div
   initial={{ opacity: 0, y: -10 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.1, duration: 0.6 }}
   className="mb-6 sm:mb-8"
 >
-  <div className="inline-block  px-4 py-2 ">
-    <img src={denAlignHeroLogo} alt="DenAlign" className="h-12 sm:h-16 md:h-20 w-auto" />
-  </div>
+ <div className="inline-block bg-gradient-to-r from-blue-600 to-cyan-500 px-6 py-4 rounded-xl">
+  <img 
+    src={denAlignHeroLogo} 
+    alt="DenAlign" 
+    className="h-22 sm:h-22 md:h-30 w-30 object-contain"
+  />
+</div>
 </motion.div>
 
             {/* Badge */}
