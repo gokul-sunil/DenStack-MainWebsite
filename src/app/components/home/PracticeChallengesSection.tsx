@@ -15,17 +15,17 @@ interface Challenge {
 
 const challenges: Challenge[] = [
   {
-    id: 'enterprise-dsos',
+    id: 'speciality-practices',
     number: '01',
-    title: 'Enterprise DSOs',
-    description: 'Manage multiple locations with centralized operations, standardized workflows, and comprehensive reporting across your entire network.',
+    title: 'Speciality Practices',
+    description: 'Customize workflows and documentation to fit the unique needs of your specialty practice, from orthodontics to oral surgery.',
     cta: 'Learn More'
   },
   {
-    id: 'emerging-groups',
+    id: 'dental-startups',
     number: '02',
-    title: 'Emerging Groups',
-    description: 'Scale efficiently with tools designed to support your growth from a few locations to a thriving multi-site practice.',
+    title: 'Dental Startups',
+    description: 'Easily setup the software platform to hit the ground running with your new office.',
     cta: 'Learn More'
   },
   {
@@ -36,17 +36,17 @@ const challenges: Challenge[] = [
     cta: 'Learn More'
   },
   {
-    id: 'speciality-practices',
+    id: 'enterprise-dsos',
     number: '04',
-    title: 'Speciality Practices',
-    description: 'Customize workflows and documentation to fit the unique needs of your specialty practice, from orthodontics to oral surgery.',
+    title: 'Enterprise DSOs',
+    description: 'Manage multiple locations with centralized operations, standardized workflows, and comprehensive reporting across your entire network.',
     cta: 'Learn More'
   },
   {
-    id: 'dental-startups',
+    id: 'emerging-groups',
     number: '05',
-    title: 'Dental Startups',
-    description: 'Easily setup the software platform to hit the ground running with your new office.',
+    title: 'Emerging Groups',
+    description: 'Scale efficiently with tools designed to support your growth from a few locations to a thriving multi-site practice.',
     cta: 'Learn More'
   }
 ];
@@ -104,7 +104,8 @@ export function PracticeChallengesSection() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-[1.1] max-w-4xl"
           >
-            Scalable Practice Management for DSOs, Multi-Location Groups and Single Offices
+From Solo Practices to Nationwide DSOs, Denstack Provides the Unified Foundation 
+Your Group Needs.
           </motion.h2>
         </div>
 

@@ -31,7 +31,8 @@ const platformFeatures = [
       'Treatment planning with e-signatures',
       'Clinical notes with templates',
       'Digital imaging integrations',
-      'HIPAA compliant documentation'
+      'HIPAA compliant documentation',
+      'Hellloooooooiiiiii'
     ],
     features: [
       'Treatment Planning with E-signatures',
@@ -158,7 +159,7 @@ export function PlatformFeaturesCarousel() {
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-blue-50 rounded-full mb-6">
                 <div className="w-1.5 h-1.5 bg-blue-600 rounded-full" />
                 <span className="text-[12px] font-semibold text-blue-600 tracking-wide">
-                  Platform Features
+                  Platform Features 
                 </span>
               </div>
 
