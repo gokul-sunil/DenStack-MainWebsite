@@ -50,12 +50,12 @@ const handlePlayPause = () => {
             >
               <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-blue-600" />
               <span className="text-xs sm:text-sm font-semibold text-blue-700">
-                Trusted by 10,000+ Practices
+                The All-In-One AI Assistant That Never Sleeps.
               </span>
             </motion.div>
 
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight mb-4 sm:mb-6">
-              The Complete Platform for{' '}
+             The Next Generation of {' '}
               <span className="relative inline-block">
                 <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 bg-clip-text text-transparent">
                   Modern Dental
@@ -67,12 +67,13 @@ const handlePlayPause = () => {
                   className="absolute bottom-0.5 sm:bottom-1 left-0 h-1.5 sm:h-2 bg-gradient-to-r from-blue-200 to-cyan-200 -z-10 rounded"
                 />
               </span>
-              {' '}Practices
+              {' '}Practice Software. 
             </h1>
 
             <p className="text-sm sm:text-base lg:text-lg xl:text-xl text-gray-700 leading-relaxed mb-6 sm:mb-8 max-w-xl font-medium">
-              Streamline operations, engage patients, and grow revenue with an all-in-one platform
-              built for dentistry. Join the future of dental practice management.
+           From  seamless scheduling to automated billing, Denstack simplifies the complexities of 
+dental management. Experience a cloud-based ecosystem designed to let you focus on what 
+matters most: your patients. 
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center space-y-3 sm:space-y-0 sm:space-x-4 mb-8 sm:mb-12">

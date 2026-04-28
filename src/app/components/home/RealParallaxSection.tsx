@@ -33,7 +33,7 @@ interface Card {
 const cards: Card[] = [
   {
     id: 1,
-    title: 'Clinical Workflows',
+    title: 'Clinical Workflows ',
     subtitle: 'Streamline your practice',
     description: 'Complete clinical management tools designed for modern dental practices. From treatment planning to prescriptions, everything you need in one place.',
     icon: ClipboardList,
@@ -42,13 +42,13 @@ const cards: Card[] = [
       'Treatment planning with e-signatures',
       'Clinical notes with templates',
       'Digital imaging integrations',
-      'HIPAA compliant documentation'
+      // 'HIPAA compliant documentation'
     ],
     leftFeatures: [
       { label: 'Treatment Planning with E-signatures' },
       { label: 'General and Perio Clinical Charting' },
       { label: 'Electronic Prescriptions' },
-      { label: 'HIPAA Compliant' }
+      // { label: 'HIPAA Compliant' }
     ],
     rightFeatures: [
       { label: 'Clinical Notes with Templates', hasSparkle: true },
@@ -70,18 +70,20 @@ const cards: Card[] = [
       'Two-way messaging with patients',
       'Online booking widget'
     ],
-    leftFeatures: [
-      { label: 'Smart Appointment Scheduling' },
-      { label: 'Automated Reminders & Confirmations' },
-      { label: 'Patient Portal Access' },
-      { label: 'Insurance Verification' }
-    ],
-    rightFeatures: [
-      { label: 'Two-Way Messaging', hasSparkle: true },
-      { label: 'Online Booking Widget' },
-      { label: 'Waitlist Management' },
-      { label: 'Patient Forms & Intake' }
-    ]
+   leftFeatures: [
+  { label: 'Built-in Appointment Reminders' },
+  { label: 'Two-way Patient Texting', hasSparkle: true},
+  { label: 'Online Self-service Scheduling' },
+  { label: 'Online forms for Patient Convenience' },
+  { label: 'Online Patient Payments' }
+],
+
+rightFeatures: [
+  { label: 'Built-in Teledentistry' },
+  { label: 'Patient Portal for Forms and Payments' },
+  { label: 'Patient Kiosk for Easy Self Check-in' },
+  { label: 'Curbside Check-in' }
+]
   },
   {
     id: 3,
@@ -122,18 +124,16 @@ const cards: Card[] = [
       'Smart billing engine with AI',
       'Collections management'
     ],
-    leftFeatures: [
-      { label: 'Automated Claims Processing' },
-      { label: 'Payment Plans & Financing' },
-      { label: 'Collections Management' },
-      { label: 'EOB Reconciliation' }
-    ],
-    rightFeatures: [
-      { label: 'Smart Billing Engine', hasSparkle: true },
-      { label: 'Stripe & Square Integration' },
-      { label: 'Aging Reports' },
-      { label: 'Bulk Payment Processing' }
-    ]
+     leftFeatures: [
+  { label: 'Clinic Expenses Management' },
+  { label: 'Treatment-based Revenue Tracking' },
+  { label: 'Payment Reminder with Pay-by-Text' }
+],
+
+rightFeatures: [
+  { label: 'Patient Financing' },
+  { label: 'Credit Card Processing' }
+]
   }
 ];
 
