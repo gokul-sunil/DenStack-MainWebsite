@@ -495,7 +495,7 @@ export function AlignersPage() {
                   Ready to Transform Your Aligner Practice?
                 </h2>
                 <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
-                  Join hundreds of practices using DentaCare to deliver exceptional clear aligner treatments
+                  Join hundreds of practices using DenStack to deliver exceptional clear aligner treatments
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button className="bg-white text-cyan-600 hover:bg-gray-100 px-8 py-6 text-lg rounded-xl font-semibold">

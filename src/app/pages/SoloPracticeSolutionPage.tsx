@@ -43,7 +43,7 @@ const features = [
 ];
 
 const stats = [
-  { value: '5,000+', label: 'Solo Practices Using DentaCare' },
+  { value: '5,000+', label: 'Solo Practices Using DenStack' },
   { value: '15hrs', label: 'Average Time Saved Per Week' },
   { value: '40%', label: 'Reduction in No-Shows' },
   { value: '$299', label: 'Starting at per month' },
@@ -71,7 +71,7 @@ export function SoloPracticeSolutionPage() {
                   Built for the Independent Dentist
                 </h1>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed mb-6 sm:mb-8">
-                  Run your practice efficiently without a large administrative team. DentaCare
+                  Run your practice efficiently without a large administrative team. DenStack
                   automates the busy work so you can focus on what matters most - your patients.
                 </p>
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center space-y-3 sm:space-y-0 sm:space-x-4">
@@ -206,7 +206,7 @@ export function SoloPracticeSolutionPage() {
             <div className="bg-white rounded-2xl p-8 lg:p-12">
               <blockquote className="text-xl text-gray-700 leading-relaxed mb-6">
                 "As a solo practitioner, I was spending more time on paperwork than patient care.
-                DentaCare automated everything - scheduling, reminders, billing - and gave me back
+                DenStack automated everything - scheduling, reminders, billing - and gave me back
                 15 hours a week. My no-show rate dropped by half, and patient satisfaction is at an
                 all-time high."
               </blockquote>
@@ -250,7 +250,7 @@ export function SoloPracticeSolutionPage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <TestimonialCard
-                quote="DentaCare pays for itself just in the time it saves. Best investment I've made in my practice."
+                quote="DenStack pays for itself just in the time it saves. Best investment I've made in my practice."
                 author="Dr. Sarah Martinez"
                 role="Owner"
                 practice="Martinez Dental"
@@ -278,7 +278,7 @@ export function SoloPracticeSolutionPage() {
               Ready to Simplify Your Practice?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Join 5,000+ solo practitioners who trust DentaCare
+              Join 5,000+ solo practitioners who trust DenStack
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg">

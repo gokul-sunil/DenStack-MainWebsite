@@ -40,7 +40,7 @@ const jobOpenings = [
     location: 'Remote (US)',
     type: 'Full-time',
     level: 'Mid-Level',
-    description: 'Help dental practices maximize value from DentaCare through onboarding, training, and ongoing support.'
+    description: 'Help dental practices maximize value from DenStack through onboarding, training, and ongoing support.'
   },
   {
     title: 'Senior UX Designer',
@@ -64,7 +64,7 @@ const jobOpenings = [
     location: 'Austin, TX',
     type: 'Full-time',
     level: 'Entry-Level',
-    description: 'Generate qualified leads and build relationships with dental practices interested in DentaCare.'
+    description: 'Generate qualified leads and build relationships with dental practices interested in DenStack.'
   }
 ];
 
@@ -191,7 +191,7 @@ export function CareersPage() {
           <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Why Work at DentaCare?
+                Why Work at DenStack?
               </h2>
               <p className="text-xl text-gray-600">
                 We believe in taking care of our team so they can take care of our customers
@@ -263,7 +263,7 @@ export function CareersPage() {
                 Open Positions
               </h2>
               <p className="text-xl text-gray-600">
-                Find your next opportunity at DentaCare
+                Find your next opportunity at DenStack
               </p>
             </div>
 

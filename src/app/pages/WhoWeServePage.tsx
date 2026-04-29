@@ -248,7 +248,7 @@ export function WhoWeServePage() {
                     <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-bold text-gray-900 mb-1">Proven Results</h3>
-                      <p className="text-gray-600">Join 10,000+ practices growing with DentaCare</p>
+                      <p className="text-gray-600">Join 10,000+ practices growing with DenStack</p>
                     </div>
                   </div>
                 </div>

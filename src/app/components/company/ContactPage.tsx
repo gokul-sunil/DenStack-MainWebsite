@@ -20,8 +20,8 @@ const contactMethods = [
     icon: Mail,
     title: 'Email Us',
     description: 'We\'ll respond within 24 hours',
-    detail: 'hello@dentacare.com',
-    href: 'mailto:hello@dentacare.com',
+    detail: 'connect@denstack.in',
+    href: 'mailto:connect@denstack.in',
   },
   {
     icon: MessageSquare,

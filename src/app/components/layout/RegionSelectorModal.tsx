@@ -58,7 +58,7 @@ export function RegionSelectorModal() {
               {/* Content */}
               <div className="text-center">
                 <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 leading-relaxed">
-                  You will be viewing DentaCare's website for the UAE region
+                  You will be viewing DenStack's website for the UAE region
                 </h2>
 
                 {/* Primary CTA */}
@@ -66,7 +66,7 @@ export function RegionSelectorModal() {
                   onClick={handleContinue}
                   className="w-full bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-gray-900 font-semibold py-6 px-6 rounded-xl text-base shadow-lg shadow-green-500/30 mb-6 transition-all"
                 >
-                  Continue with DentaCare UAE
+                  Continue with DenStack UAE
                 </Button>
 
                 {/* Divider */}
@@ -80,7 +80,7 @@ export function RegionSelectorModal() {
                     onClick={() => handleRegionSelect('India')}
                     className="text-gray-400 hover:text-gray-600 font-medium text-sm transition-colors"
                   >
-                    DentaCare India
+                    DenStack India
                   </button>
                 </div>
               </div>

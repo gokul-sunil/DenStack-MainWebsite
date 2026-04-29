@@ -21,7 +21,7 @@ const caseStudies = [
     color: 'from-blue-500 to-blue-600',
     image: '#3b82f6',
     challenge: 'Managing 5 locations with disconnected systems led to data silos, scheduling conflicts, and revenue leakage.',
-    solution: 'Implemented DentaCare across all locations with centralized management, unified scheduling, and integrated billing.',
+    solution: 'Implemented DenStack across all locations with centralized management, unified scheduling, and integrated billing.',
     results: [
       { metric: '35%', label: 'Revenue Increase', description: 'First year growth' },
       { metric: '60%', label: 'Admin Time Saved', description: 'Through automation' },
@@ -29,7 +29,7 @@ const caseStudies = [
       { metric: '98%', label: 'Patient Satisfaction', description: 'Net promoter score' }
     ],
     testimonial: {
-      quote: 'DentaCare transformed our operations. We went from managing chaos to having complete visibility and control across all our locations.',
+      quote: 'DenStack transformed our operations. We went from managing chaos to having complete visibility and control across all our locations.',
       author: 'Dr. Sarah Martinez',
       role: 'Owner & Lead Dentist'
     },
@@ -77,7 +77,7 @@ const caseStudies = [
       { metric: '50+', label: 'Locations', description: 'Unified platform' }
     ],
     testimonial: {
-      quote: 'DentaCare gave us the enterprise-grade infrastructure we needed to scale efficiently while maintaining quality across all locations.',
+      quote: 'DenStack gave us the enterprise-grade infrastructure we needed to scale efficiently while maintaining quality across all locations.',
       author: 'James Williams',
       role: 'Chief Operations Officer'
     },
@@ -109,7 +109,7 @@ export function CaseStudiesPage() {
                 Real Results from Real Practices
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Discover how dental practices of all sizes are using DentaCare to transform 
+                Discover how dental practices of all sizes are using DenStack to transform 
                 their operations and grow their business.
               </p>
             </motion.div>
@@ -254,7 +254,7 @@ export function CaseStudiesPage() {
 
             <div className="grid md:grid-cols-4 gap-8">
               {[
-                { value: '10,000+', label: 'Practices Using DentaCare' },
+                { value: '10,000+', label: 'Practices Using DenStack' },
                 { value: '35%', label: 'Average Revenue Increase' },
                 { value: '4.9/5', label: 'Customer Satisfaction' },
                 { value: '99.9%', label: 'Platform Uptime' }
@@ -287,7 +287,7 @@ export function CaseStudiesPage() {
                 Ready to Write Your Success Story?
               </h2>
               <p className="text-xl text-gray-600 mb-8">
-                See how DentaCare can transform your practice like it has for thousands of others
+                See how DenSack can transform your practice like it has for thousands of others
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
                 <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-xl">

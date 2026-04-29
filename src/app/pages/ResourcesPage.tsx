@@ -223,7 +223,7 @@ export function ResourcesPage() {
                 Featured Resources
               </h2>
               <p className="text-xl text-gray-600">
-                Most popular downloads from the DentaCare community
+                Most popular downloads from the DenStack community
               </p>
             </motion.div>
 

@@ -116,7 +116,7 @@ export function MobileDentistryPage() {
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
                 <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                  Why Mobile Practices Love DentaCare
+                  Why Mobile Practices Love DenStack
                 </h2>
                 <div className="space-y-4">
                   {[

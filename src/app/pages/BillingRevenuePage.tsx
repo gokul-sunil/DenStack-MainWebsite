@@ -279,7 +279,7 @@ export function BillingRevenuePage() {
                 Proven Revenue Growth
               </h2>
               <p className="text-xl text-green-100">
-                See the financial impact on practices using DentaCare
+                See the financial impact on practices using DenStack
               </p>
             </div>
 
@@ -584,7 +584,7 @@ export function BillingRevenuePage() {
                   Ready to Increase Your Revenue?
                 </h2>
                 <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-                  See how much you could save and earn with DentaCare
+                  See how much you could save and earn with DenStack
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button className="bg-white text-green-600 hover:bg-gray-100 px-8 py-6 text-lg rounded-xl font-semibold">

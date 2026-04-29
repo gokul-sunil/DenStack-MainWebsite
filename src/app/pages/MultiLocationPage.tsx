@@ -296,7 +296,7 @@ export function MultiLocationPage() {
                 Multi-Location Performance
               </h2>
               <p className="text-xl text-blue-100">
-                Real results from dental groups using DentaCare
+                Real results from dental groups using DenStack
               </p>
             </div>
 
@@ -334,7 +334,7 @@ export function MultiLocationPage() {
                   Everything You Need to Scale
                 </h2>
                 <p className="text-xl text-gray-600 mb-8">
-                  From 2 locations to 50+, DentaCare grows with your dental group.
+                  From 2 locations to 50+, DenStack grows with your dental group.
                 </p>
 
                 <div className="grid sm:grid-cols-2 gap-4">

@@ -104,7 +104,7 @@ export function FinalCTASection() {
                     transition={{ duration: 0.6, delay: 0.3 }}
                     className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed"
                   >
-                    Join 10,000+ dental practices using DentaCare to streamline operations and grow revenue
+                    Join 10,000+ dental practices using DenStack to streamline operations and grow revenue
                   </motion.p>
 
                   {/* Benefits Grid */}

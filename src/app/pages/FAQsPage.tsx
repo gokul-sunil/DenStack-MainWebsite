@@ -20,7 +20,7 @@ const faqCategories = [
     icon: HelpCircle,
     faqs: [
       {
-        question: 'How long does it take to implement DentaCare?',
+        question: 'How long does it take to implement DenStack?',
         answer: 'Implementation time varies by practice size. Solo practices typically go live in 2-4 weeks, while multi-location groups may take 2-3 months. Our dedicated onboarding team works with you to ensure a smooth transition with minimal disruption.'
       },
       {
@@ -32,8 +32,8 @@ const faqCategories = [
         answer: 'We offer comprehensive training including live onboarding sessions, video tutorials, detailed documentation, and ongoing support. All plans include email support, with higher tiers offering phone support and dedicated account managers.'
       },
       {
-        question: 'Can I try DentaCare before committing?',
-        answer: 'Absolutely! We offer a 30-day free trial with full access to all features in your selected plan. No credit card required to start. We also provide personalized demos to show you how DentaCare works for your specific practice needs.'
+        question: 'Can I try DenStack before committing?',
+        answer: 'Absolutely! We offer a 30-day free trial with full access to all features in your selected plan. No credit card required to start. We also provide personalized demos to show you how DenStack works for your specific practice needs.'
       }
     ]
   },
@@ -42,8 +42,8 @@ const faqCategories = [
     icon: HelpCircle,
     faqs: [
       {
-        question: 'Does DentaCare integrate with digital imaging systems?',
-        answer: 'Yes, DentaCare integrates with all major digital imaging systems including Dexis, Schick, Carestream, and others. Images are stored securely and accessible directly within the patient record for easy viewing during appointments.'
+        question: 'Does DenStack integrate with digital imaging systems?',
+        answer: 'Yes, DenStack integrates with all major digital imaging systems including Dexis, Schick, Carestream, and others. Images are stored securely and accessible directly within the patient record for easy viewing during appointments.'
       },
       {
         question: 'Can patients book appointments online?',
@@ -86,8 +86,8 @@ const faqCategories = [
     icon: HelpCircle,
     faqs: [
       {
-        question: 'Is DentaCare HIPAA compliant?',
-        answer: 'Yes, DentaCare is fully HIPAA compliant. We implement comprehensive administrative, physical, and technical safeguards to protect patient health information. All customers receive a Business Associate Agreement (BAA) as part of their subscription.'
+        question: 'Is DenStack HIPAA compliant?',
+        answer: 'Yes, DenStack is fully HIPAA compliant. We implement comprehensive administrative, physical, and technical safeguards to protect patient health information. All customers receive a Business Associate Agreement (BAA) as part of their subscription.'
       },
       {
         question: 'Where is my data stored and backed up?',
@@ -95,11 +95,11 @@ const faqCategories = [
       },
       {
         question: 'What certifications do you have?',
-        answer: 'DentaCare maintains SOC 2 Type II certification, HIPAA compliance, and follows industry best practices for security. We undergo annual third-party security audits and penetration testing to ensure the highest level of data protection.'
+        answer: 'DenStack maintains SOC 2 Type II certification, HIPAA compliance, and follows industry best practices for security. We undergo annual third-party security audits and penetration testing to ensure the highest level of data protection.'
       },
       {
         question: 'Who has access to my patient data?',
-        answer: 'Only authorized users in your practice have access to patient data. You control user permissions with role-based access. DentaCare employees cannot access your data unless you explicitly grant permission for support purposes, and all access is logged.'
+        answer: 'Only authorized users in your practice have access to patient data. You control user permissions with role-based access. DenStack employees cannot access your data unless you explicitly grant permission for support purposes, and all access is logged.'
       }
     ]
   },
@@ -109,11 +109,11 @@ const faqCategories = [
     faqs: [
       {
         question: 'What are the system requirements?',
-        answer: 'DentaCare is cloud-based and works on any device with a modern web browser (Chrome, Firefox, Safari, Edge). No special hardware or software installation required. For optimal performance, we recommend a high-speed internet connection.'
+        answer: 'DenStack is cloud-based and works on any device with a modern web browser (Chrome, Firefox, Safari, Edge). No special hardware or software installation required. For optimal performance, we recommend a high-speed internet connection.'
       },
       {
         question: 'What happens if I lose internet connection?',
-        answer: 'DentaCare is cloud-based and requires internet connectivity. However, we offer offline mode for critical functions like viewing the schedule and patient notes. Data syncs automatically when connection is restored. We recommend having a backup internet connection.'
+        answer: 'DenStack is cloud-based and requires internet connectivity. However, we offer offline mode for critical functions like viewing the schedule and patient notes. Data syncs automatically when connection is restored. We recommend having a backup internet connection.'
       },
       {
         question: 'How often do you release updates?',
@@ -151,7 +151,7 @@ export function FAQsPage() {
                 Frequently Asked Questions
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Find answers to common questions about DentaCare
+                Find answers to common questions about DenStack
               </p>
 
               {/* Search Bar */}
@@ -249,7 +249,7 @@ export function FAQsPage() {
                 {
                   icon: Mail,
                   title: 'Email Support',
-                  description: 'support@dentacare.com',
+                  description: 'connect@denstack.in',
                   action: 'Send Email',
                   color: 'from-purple-500 to-purple-600'
                 }

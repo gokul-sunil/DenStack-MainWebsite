@@ -354,7 +354,7 @@ export function PatientManagementPage() {
                   Ready to Transform Patient Engagement?
                 </h2>
                 <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                  See how DentaCare can help you engage more patients and grow your practice
+                  See how DenStack can help you engage more patients and grow your practice
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-6 text-lg rounded-xl font-semibold">

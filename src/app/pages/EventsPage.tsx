@@ -9,7 +9,7 @@ import { Calendar, MapPin, Users, ArrowRight, Video } from 'lucide-react';
 const upcomingEvents = [
   {
     id: 1,
-    title: 'DentaCare Summit 2026',
+    title: 'DenStack Summit 2026',
     type: 'Conference',
     date: 'March 15-17, 2026',
     location: 'Las Vegas, NV',
@@ -60,7 +60,7 @@ const upcomingEvents = [
 const pastEvents = [
   {
     id: 5,
-    title: 'DentaCare Summit 2025',
+    title: 'DenStack Summit 2025',
     date: 'March 2025',
     attendees: '2,200+',
     recording: true,
@@ -104,7 +104,7 @@ export function EventsPage() {
               </div>
               
               <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
-                DentaCare Events
+                DenStack Events
               </h1>
               
               <p className="text-xl text-blue-100 mb-8">

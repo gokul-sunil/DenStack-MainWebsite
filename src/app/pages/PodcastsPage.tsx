@@ -108,7 +108,7 @@ export function PodcastsPage() {
               </div>
               
               <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
-                The DentaCare Podcast
+                The DenStack Podcast
               </h1>
               
               <p className="text-xl text-indigo-100 mb-8">
@@ -404,7 +404,7 @@ export function PodcastsPage() {
                 Never Miss an Episode
               </h2>
               <p className="text-xl text-indigo-100 mb-8 max-w-2xl mx-auto">
-                Subscribe to The DentaCare Podcast on your favorite platform and get notified when new episodes drop.
+                Subscribe to The DenStack Podcast on your favorite platform and get notified when new episodes drop.
               </p>
               
               <div className="flex flex-wrap items-center justify-center gap-4">

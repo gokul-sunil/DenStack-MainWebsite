@@ -59,7 +59,7 @@ const useCases = [
   {
     title: 'Solo Practice',
     description:
-      'A single-provider practice uses DentaCare to automate scheduling, reminders, and patient communication, saving 10+ hours per week on administrative tasks.',
+      'A single-provider practice uses DenStack to automate scheduling, reminders, and patient communication, saving 10+ hours per week on administrative tasks.',
     benefits: [
       'Online booking increases new patient acquisition by 25%',
       'Automated reminders reduce no-shows from 15% to 6%',
@@ -81,7 +81,7 @@ const useCases = [
   {
     title: 'Growing Practice',
     description:
-      'A practice expanding from 1 to 3 locations uses DentaCare to maintain consistency and control as they scale.',
+      'A practice expanding from 1 to 3 locations uses DenStack to maintain consistency and control as they scale.',
     benefits: [
       'Multi-location view shows all practice activity',
       'Standardized workflows ensure consistent patient experience',

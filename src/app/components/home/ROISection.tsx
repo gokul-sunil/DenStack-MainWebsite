@@ -117,7 +117,7 @@ export function ROISection() {
           <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-white/5 rounded-3xl blur-xl" />
           <div className="relative bg-white/10 backdrop-blur-md border border-white/20 p-8 md:p-12 rounded-3xl">
             <blockquote className="text-xl lg:text-2xl text-white font-medium max-w-3xl mx-auto leading-relaxed text-center mb-6">
-              "Within 4 months of implementing DentaCare, we saw a{' '}
+              "Within 4 months of implementing , we saw a{' '}
               <span className="text-cyan-300 font-bold">28% increase in revenue</span> and our team
               productivity improved dramatically."
             </blockquote>

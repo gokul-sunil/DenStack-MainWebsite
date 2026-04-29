@@ -175,7 +175,7 @@ export function EndodontistsPage() {
               Transform Your Endodontic Practice
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Join leading endodontists using DentaCare
+              Join leading endodontists using DenStack
             </p>
             <Button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-6 text-lg rounded-xl">
               Start Free Trial

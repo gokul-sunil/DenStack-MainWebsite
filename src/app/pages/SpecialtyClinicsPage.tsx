@@ -417,7 +417,7 @@ export function SpecialtyClinicsPage() {
                   Ready to Transform Your Specialty Practice?
                 </h2>
                 <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-                  See how DentaCare can streamline your specialty workflows
+                  See how DenStack can streamline your specialty workflows
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-6 text-lg rounded-xl font-semibold">

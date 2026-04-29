@@ -58,7 +58,7 @@ export function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
                 <span className="text-white font-bold text-xl">D</span>
               </div>
-              <span className="text-xl font-bold text-gray-900">DentaCare</span>
+              <span className="text-xl font-bold text-gray-900">DenStack</span>
             </button>
             <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 max-w-xs">
               The all-in-one platform built to power modern dental practices with intelligent technology.
@@ -153,7 +153,7 @@ export function Footer() {
         <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-xs sm:text-sm text-gray-500 text-center md:text-left">
-              © {new Date().getFullYear()} DentaCare. All rights reserved.
+              © {new Date().getFullYear()} DenStack. All rights reserved.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 md:gap-6">
               {footerLinks.legal.map((link) => (

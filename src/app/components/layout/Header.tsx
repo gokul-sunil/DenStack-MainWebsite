@@ -241,7 +241,7 @@ export function Header() {
                 Support
               </button>
               <a 
-                href="https://developers.dentacare.com" 
+                href="https://developers.denstack.com" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs text-gray-600 hover:text-blue-600 transition-colors"

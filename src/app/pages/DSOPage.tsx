@@ -445,7 +445,7 @@ export function DSOPage() {
                   Ready for Enterprise-Scale Growth?
                 </h2>
                 <p className="text-xl text-blue-200 mb-8 max-w-2xl mx-auto">
-                  Connect with our enterprise team to see how DentaCare can power your DSO
+                  Connect with our enterprise team to see how DenStack can power your DSO
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-8 py-6 text-lg rounded-xl font-semibold">

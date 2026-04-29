@@ -255,7 +255,7 @@ export function WhitepapersPage() {
                 Want to See These Strategies in Action?
               </h2>
               <p className="text-xl text-gray-600 mb-8">
-                Book a demo to see how DentaCare brings these best practices to life
+                Book a demo to see how DenStack brings these best practices to life
               </p>
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-xl">
                 Schedule Your Demo

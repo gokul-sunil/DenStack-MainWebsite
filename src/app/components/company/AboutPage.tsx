@@ -136,7 +136,7 @@ export function AboutPage() {
                 </div>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   We believe that dental practices should spend less time managing software and more
-                  time caring for patients. That's why we built DentaCare - an all-in-one platform
+                  time caring for patients. That's why we built DenStack - an all-in-one platform
                   that simplifies practice management while delivering enterprise-grade capabilities.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">

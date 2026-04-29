@@ -167,7 +167,7 @@ export function ProblemSolutionSection() {
                 </h3>
                 
                 <p className="text-base sm:text-lg lg:text-xl text-gray-700 leading-relaxed max-w-2xl mx-auto">
-                  DentaCare unifies every aspect of your practice into a single, intelligent platform
+                  DenStack unifies every aspect of your practice into a single, intelligent platform
                 </p>
               </div>
 

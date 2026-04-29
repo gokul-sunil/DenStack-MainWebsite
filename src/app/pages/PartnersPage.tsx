@@ -20,7 +20,7 @@ const partnerTypes = [
   {
     icon: Handshake,
     title: 'Technology Partners',
-    description: 'Integrate your dental technology with DentaCare to provide seamless workflows for practices.',
+    description: 'Integrate your dental technology with DenStack to provide seamless workflows for practices.',
     color: 'from-blue-500 to-blue-600',
     benefits: [
       'Access to 10,000+ dental practices',
@@ -32,7 +32,7 @@ const partnerTypes = [
   {
     icon: TrendingUp,
     title: 'Reseller Partners',
-    description: 'Become an authorized reseller and help dental practices in your region adopt DentaCare.',
+    description: 'Become an authorized reseller and help dental practices in your region adopt DenStack.',
     color: 'from-green-500 to-green-600',
     benefits: [
       'Competitive margins and incentives',
@@ -44,7 +44,7 @@ const partnerTypes = [
   {
     icon: Users,
     title: 'Referral Partners',
-    description: 'Refer dental practices to DentaCare and earn commission on every successful sale.',
+    description: 'Refer dental practices to DenStack and earn commission on every successful sale.',
     color: 'from-purple-500 to-purple-600',
     benefits: [
       '15-20% commission on sales',
@@ -108,7 +108,7 @@ export function PartnersPage() {
                 Partnership Opportunities
               </div>
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Partner with DentaCare
+                Partner with DenStack
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
                 Join our ecosystem of technology providers, resellers, and referral partners 
@@ -177,7 +177,7 @@ export function PartnersPage() {
           <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Why Partner with DentaCare?
+                Why Partner with DenStack?
               </h2>
               <p className="text-xl text-gray-600">
                 Join a thriving ecosystem serving thousands of dental practices

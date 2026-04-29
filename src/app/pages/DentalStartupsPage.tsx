@@ -90,7 +90,7 @@ export function DentalStartupsPage() {
           <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Why Startups Choose DentaCare
+                Why Startups Choose DenStack
               </h2>
               <p className="text-xl text-gray-600">
                 Built specifically for new practices getting off the ground
@@ -130,7 +130,7 @@ export function DentalStartupsPage() {
                   Everything You Need From Day One
                 </h2>
                 <p className="text-xl text-gray-700 mb-8">
-                  No need to piece together multiple systems. DentaCare provides your complete practice infrastructure.
+                  No need to piece together multiple systems. DenStack provides your complete practice infrastructure.
                 </p>
 
                 <div className="space-y-3">
@@ -192,7 +192,7 @@ export function DentalStartupsPage() {
                 Ready to Launch Your Practice?
               </h2>
               <p className="text-xl text-gray-600 mb-8">
-                Join hundreds of successful dental startups using DentaCare
+                Join hundreds of successful dental startups using DenStack
               </p>
               <Button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-6 text-lg rounded-xl">
                 Start Your Free Trial

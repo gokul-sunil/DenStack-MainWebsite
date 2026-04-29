@@ -175,7 +175,7 @@ export function OrthodontistsPage() {
               Transform Your Orthodontic Practice
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Join leading orthodontists using DentaCare
+              Join leading orthodontists using DenStack
             </p>
             <Button className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-6 text-lg rounded-xl">
               Start Free Trial
