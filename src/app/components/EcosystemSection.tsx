@@ -69,7 +69,7 @@ export default function EcosystemSection() {
                 className="relative z-10 w-64 h-64 rounded-3xl bg-gradient-to-br from-[#9FE870] to-[#7bc955] shadow-2xl flex items-center justify-center"
               >
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-[#0f3d1f] mb-2">CareStack</div>
+                  <div className="text-2xl font-bold text-[#0f3d1f] mb-2">DenStack</div>
                   <div className="text-sm text-[#0f3d1f]/70">Central Platform</div>
                 </div>
               </motion.div>

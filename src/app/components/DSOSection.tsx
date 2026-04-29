@@ -62,7 +62,7 @@ export default function DSOSection() {
             <h2 className="text-[32px] font-semibold text-neutral-900 leading-tight mb-2">
               Scale your DSO
               <br />
-              with CareStack
+              with DenStack
             </h2>
 
             {/* Supporting Text */}

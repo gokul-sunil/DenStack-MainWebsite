@@ -26,7 +26,7 @@ const videoTestimonials = [
     hasPlayButton: false,
   },
   {
-    quote: "We have made 27,000,000+ API calls with CareStack to consolidate data from multiple systems.",
+    quote: "We have made 27,000,000+ API calls with DenStack to consolidate data from multiple systems.",
     author: 'Tim Hill',
     role: 'CEO, Espire Dental',
     image: 'https://images.unsplash.com/photo-1568585105565-e372998a195d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzc21hbiUyMGhlYWRzaG90fGVufDF8fHx8MTc2OTQ4NjA3M3ww&ixlib=rb-4.1.0&q=80&w=1080',
@@ -35,7 +35,7 @@ const videoTestimonials = [
     hasPlayButton: true,
   },
   {
-    quote: "CareStack simplifies our daily operations by enabling efficient multitasking for our entire team.",
+    quote: "DenStack simplifies our daily operations by enabling efficient multitasking for our entire team.",
     author: 'Nathan Suter, DDS',
     role: 'Chief Innovation Officer, Enable Dental',
     image: 'https://images.unsplash.com/photo-1631596577204-53ad0d6e6978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkb2N0b3IlMjBoZWFkc2hvdCUyMHNtaWxlfGVufDF8fHx8MTc2OTU3NjM4NHww&ixlib=rb-4.1.0&q=80&w=1080',
@@ -44,7 +44,7 @@ const videoTestimonials = [
     hasPlayButton: true,
   },
   {
-    quote: "CareStack's clinical tools make treatment planning easy and efficient.",
+    quote: "DenStack's clinical tools make treatment planning easy and efficient.",
     author: 'Dr. Bruce Gouin',
     role: 'Owner, Arrowhead Dental Associates',
     image: 'https://images.unsplash.com/photo-1758599543154-76ec1c4257df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBleGVjdXRpdmUlMjBoZWFkc2hvdHxlbnwxfHx8fDE3Njk0ODA4OTV8MA&ixlib=rb-4.1.0&q=80&w=1080',

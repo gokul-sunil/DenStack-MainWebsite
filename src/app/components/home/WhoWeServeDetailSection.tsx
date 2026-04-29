@@ -57,7 +57,7 @@ export function WhoWeServeDetailSection() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="text-base lg:text-lg text-gray-600 leading-relaxed"
             >
-              CareStack is grateful to work with an amazing community of dentists from all across the country, and nothing makes us happier than hearing from these satisfied customers! Many have been kind enough to share their experiences, so discover what they are saying about CareStack, then contact us to find out for yourself. We're confident you'll see the CareStack difference!
+              DenStack is grateful to work with an amazing community of dentists from all across the country, and nothing makes us happier than hearing from these satisfied customers! Many have been kind enough to share their experiences, so discover what they are saying about DenStack, then contact us to find out for yourself. We're confident you'll see the DenStack difference!
             </motion.p>
           </div>
 

@@ -29,12 +29,12 @@ export function CareStackActionSection() {
       >
         {/* Heading */}
         <h2 className="text-[32px] md:text-[42px] font-semibold text-white mb-4 leading-tight">
-          See CareStack in action
+          See DenStack in action
         </h2>
 
         {/* Subtitle */}
         <p className="text-[15px] md:text-[16px] text-[#A8B8B0] max-w-[600px] mx-auto mb-8 leading-relaxed">
-          CareStack's modern User Interface is easy to learn. You can also use our learning center to swiftly onboard new staff.
+          DenStack's modern User Interface is easy to learn. You can also use our learning center to swiftly onboard new staff.
         </p>
 
         {/* CTA Button */}

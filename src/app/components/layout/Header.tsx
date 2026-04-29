@@ -491,10 +491,10 @@ export function Header() {
                           </div>
                         </div>
 
-                        {/* Right Column - Why CareStack */}
+                        {/* Right Column - Why DenStack */}
                         <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-5 rounded-xl border border-green-200">
                           <h3 className="text-base font-bold text-gray-900 mb-2">
-                            Why DenAlign
+                            Why DenStack
                           </h3>
                           <p className="text-xs text-gray-700 mb-3">
                             Transforming average dental practice into systemized cloud-based excellence.

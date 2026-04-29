@@ -439,18 +439,18 @@ function EcosystemCard() {
 function TestimonialsCard() {
   const testimonials = [
     {
-      quote: "CareStack simplifies our daily operations by enabling efficient multitasking for the entire team.",
+      quote: "DenStack simplifies our daily operations by enabling efficient multitasking for the entire team.",
       author: "Nathan Suter, DDS",
       title: "Chief Innovation Officer,",
       company: "Enable Dental"
     },
     {
-      quote: "CareStack is where all our processes are being brought together in a single system.",
+      quote: "DenStack is where all our processes are being brought together in a single system.",
       author: "David Rallis",
       title: "CEO, Paradigm Oral Surgery"
     },
     {
-      quote: "We have made 27,000,000+ API calls with CareStack to consolidate data from multiple systems.",
+      quote: "We have made 27,000,000+ API calls with DenStack to consolidate data from multiple systems.",
       author: "Tim Hill",
       title: "CEO, Espire Dental"
     }
@@ -625,7 +625,7 @@ function DSOCard() {
               className="text-[32px] font-semibold text-[#0F172A] leading-[1.15]"
             >
               Scale your DSO<br />
-              with CareStack
+              with DenStack
             </motion.h2>
 
             <motion.p 

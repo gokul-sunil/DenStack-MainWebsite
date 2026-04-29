@@ -14,7 +14,7 @@ const reviews = [
     practice: 'Smile Dental Care',
     location: 'Austin, TX',
     rating: 5,
-    text: 'CareStack has completely transformed how we manage our practice. The integrated billing and patient management features have saved us countless hours every week.',
+    text: 'DenStack has completely transformed how we manage our practice. The integrated billing and patient management features have saved us countless hours every week.',
     image: null,
     role: 'Practice Owner'
   },
@@ -41,7 +41,7 @@ const reviews = [
     practice: 'Elite Dental Partners',
     location: 'Chicago, IL',
     rating: 5,
-    text: 'Managing multiple locations was a nightmare before CareStack. Now everything is streamlined and our team is more productive than ever.',
+    text: 'Managing multiple locations was a nightmare before DenStack. Now everything is streamlined and our team is more productive than ever.',
     image: null,
     role: 'DSO Director'
   },
@@ -90,21 +90,21 @@ const videoTestimonials = [
   {
     name: 'Tim Hill',
     title: 'CTO, Espire Dental',
-    quote: 'We have made 27,000,000+ API calls with CareStack to consolidate data from multiple systems.',
+    quote: 'We have made 27,000,000+ API calls with DenStack to consolidate data from multiple systems.',
     logo: 'ESPIRE',
     thumbnail: videoThumb1
   },
   {
     name: 'Nathan Suter, DDS',
     title: 'Chief Innovation Officer, Enable Dental',
-    quote: 'CareStack simplifies our daily operations by enabling efficient multitasking for the entire team.',
+    quote: 'DenStack simplifies our daily operations by enabling efficient multitasking for the entire team.',
     logo: 'Enable Dental',
     thumbnail: videoThumb1
   },
   {
     name: 'Dr. Bruce Gooin',
     title: 'Owner, Arrowhead Dental Associates',
-    quote: 'CareStack\'s clinical tools make treatment planning easy and efficient.',
+    quote: 'DenStack\'s clinical tools make treatment planning easy and efficient.',
     logo: 'Arrowhead',
     thumbnail: videoThumb1
   }
@@ -158,7 +158,7 @@ export function ReviewsPage() {
               className="text-center mb-12"
             >
               <p className="text-sm font-semibold text-gray-500 tracking-wider uppercase mb-2">
-                WHAT DENTISTS SAY ABOUT CARESTACK
+                WHAT DENTISTS SAY ABOUT DENSTACK
               </p>
             </motion.div>
 
@@ -293,7 +293,7 @@ export function ReviewsPage() {
                 <CheckCircle2 className="w-12 h-12 text-green-600 mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Verified Reviews</h3>
                 <p className="text-gray-700">
-                  All reviews are from verified CareStack customers who use our platform daily.
+                  All reviews are from verified DenStack customers who use our platform daily.
                 </p>
               </motion.div>
 
@@ -341,7 +341,7 @@ export function ReviewsPage() {
                 Join Thousands of Happy Practices
               </h2>
               <p className="text-xl text-blue-100 mb-8">
-                See why dental professionals across the country trust CareStack
+                See why dental professionals across the country trust DenStack
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-6 text-lg rounded-xl shadow-lg font-semibold">

@@ -8,7 +8,7 @@ import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback'
 const testimonials = [
   {
     avatar: 'https://images.unsplash.com/photo-1674775372064-8c75d3f8c757?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMGRlbnRpc3QlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzAxMDkwMTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    quote: 'CareStack transformed how we manage our practice. The interface is incredibly intuitive and saves us hours every week.',
+    quote: 'DenStack transformed how we manage our practice. The interface is incredibly intuitive and saves us hours every week.',
     name: 'Dr. Sarah Mitchell',
     role: 'Practice Owner, Denver Dental'
   },

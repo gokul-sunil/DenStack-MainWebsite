@@ -445,7 +445,7 @@ export function IntegrationsPage() {
   const getCategoryDescriptionByName = (category: string) => {
     switch (category) {
       case 'Dental Imaging':
-        return 'CareStack integrates with all the popular imaging platforms and sensors, so that you can continue using your favorite applications without any need for change management.';
+        return 'DenStack integrates with all the popular imaging platforms and sensors, so that you can continue using your favorite applications without any need for change management.';
       case 'Clinical':
         return 'Connect with leading clinical systems to streamline patient care and improve treatment outcomes.';
       case 'Revenue Cycle Management':
@@ -659,7 +659,7 @@ export function IntegrationsPage() {
 
             {/* Subtitle */}
             <p className="text-base text-gray-600 max-w-2xl mx-auto mb-16">
-              CareStack's cloud dental software provides efficient practice management, world-class support, and modern tools and technology.
+              DenStack's cloud dental software provides efficient practice management, world-class support, and modern tools and technology.
             </p>
 
             {/* Logo Grid */}

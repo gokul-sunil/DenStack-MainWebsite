@@ -32,7 +32,7 @@ const benefits = [
   {
     icon: TrendingUp,
     title: 'ROI Analysis',
-    description: 'See how CareStack can improve your bottom line',
+    description: 'See how DenStack can improve your bottom line',
   },
   {
     icon: Shield,
@@ -119,10 +119,10 @@ export function BookDemoPage() {
               </div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 max-w-4xl mx-auto leading-tight px-4">
-                See CareStack in Action
+                See DenStack in Action
               </h1>
               <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed mb-6 sm:mb-8 px-4">
-                Discover how our all-in-one cloud platform can transform your dental practice. Book a personalized demo with our experts and learn how CareStack can help you:
+                Discover how our all-in-one cloud platform can transform your dental practice. Book a personalized demo with our experts and learn how DenStack can help you:
               </p>
 
               <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 mb-8 sm:mb-12 px-4">
@@ -213,7 +213,7 @@ export function BookDemoPage() {
                     <div>
                       <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2">Trusted by Thousands</h3>
                       <p className="text-gray-600 text-xs sm:text-sm">
-                        Join over 10,000 dental practices worldwide who trust CareStack to run their operations efficiently.
+                        Join over 10,000 dental practices worldwide who trust DenStack to run their operations efficiently.
                       </p>
                     </div>
                   </div>
@@ -462,7 +462,7 @@ export function BookDemoPage() {
                   ))}
                 </div>
                 <blockquote className="text-xl text-gray-700 mb-6 italic">
-                  "The demo showed us exactly how CareStack could solve our biggest challenges. Within 6 months of implementation, we increased our revenue by 35% and reduced administrative time by half."
+                  "The demo showed us exactly how DenStack could solve our biggest challenges. Within 6 months of implementation, we increased our revenue by 35% and reduced administrative time by half."
                 </blockquote>
                 <div className="flex items-center justify-center gap-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-lime-400 to-lime-500 rounded-full flex items-center justify-center">

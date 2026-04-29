@@ -211,7 +211,7 @@ export function WhoWeServePage() {
           </div>
         </section>
 
-        {/* Why CareStack CTA Section */}
+        {/* Why DenStack CTA Section */}
         <section className="py-24 bg-gradient-to-br from-green-50 to-emerald-50">
           <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -223,7 +223,7 @@ export function WhoWeServePage() {
                 transition={{ duration: 0.6 }}
               >
                 <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                  Why DentaCare
+                  Why DenStack
                 </h2>
                 <p className="text-xl text-gray-700 mb-8 leading-relaxed">
                   Transforming average dental practice into systemized cloud-based excellence.

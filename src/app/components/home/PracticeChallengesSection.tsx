@@ -260,7 +260,7 @@ Your Group Needs.
                         </motion.div>
                         
                         <p className="text-white text-xl lg:text-2xl font-bold leading-snug max-w-md">
-                          "CareStack helped me grow from a solo startup to a modern, efficient Pediatric practice."
+                          "DenStack helped me grow from a solo startup to a modern, efficient Pediatric practice."
                         </p>
                       </div>
 

@@ -19,7 +19,7 @@ interface ComparisonFeature {
 const comparisonData: Record<ComparisonTab, { title: string; description: string; features: ComparisonFeature[] }> = {
   operational: {
     title: 'Operational Efficiency',
-    description: 'Discover why CareStack is better to run the daily operational activities at your practice, including scheduling, Charting and claims management.',
+    description: 'Discover why DenStack is better to run the daily operational activities at your practice, including scheduling, Charting and claims management.',
     features: [
       { feature: 'Online Scheduling', carestack: 'advanced', dentrix: 'x', eaglesoft: 'x', openDental: 'check' },
       { feature: 'Multi-Location schedule management', carestack: 'advanced', dentrix: 'warning', eaglesoft: 'warning', openDental: 'x' },
@@ -31,7 +31,7 @@ const comparisonData: Record<ComparisonTab, { title: string; description: string
   },
   growth: {
     title: 'Practice Growth',
-    description: 'When compared to other softwares, CareStack offers better solutions for practice growth, including membership plans, online reputation management, auto-debit for credit cards, and more.',
+    description: 'When compared to other softwares, DenStack offers better solutions for practice growth, including membership plans, online reputation management, auto-debit for credit cards, and more.',
     features: [
       { feature: 'Built-in Payment Plans with Auto Debit', carestack: 'advanced', dentrix: 'x', eaglesoft: 'x', openDental: 'x' },
       { feature: 'Integrated Membership Plans', carestack: 'advanced', dentrix: 'x', eaglesoft: 'x', openDental: 'x' },
@@ -43,7 +43,7 @@ const comparisonData: Record<ComparisonTab, { title: string; description: string
   },
   experience: {
     title: 'Patient Experience',
-    description: 'With modern tools like online scheduling, digital forms and digital payments, CareStack helps your practice offer a better patient experience.',
+    description: 'With modern tools like online scheduling, digital forms and digital payments, DenStack helps your practice offer a better patient experience.',
     features: [
       { feature: 'Digital Treatment Plan Presentation with electronic signatures', carestack: 'advanced', dentrix: 'warning', eaglesoft: 'warning', openDental: 'warning' },
       { feature: 'Check-in Kiosks', carestack: 'advanced', dentrix: 'x', eaglesoft: 'x', openDental: 'x' },
@@ -86,13 +86,13 @@ export function ComparisonPage() {
               transition={{ duration: 0.62 }}
             >
               <p className="text-sm uppercase tracking-wider text-gray-500 mb-6">
-                HOW CARESTACK COMPARES
+                HOW DENSTACK COMPARES
               </p>
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8 max-w-4xl mx-auto leading-tight">
                 One Cloud Platform to Simplify All Your Dental Software Needs
               </h1>
               <p className="text-base text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
-                Choosing dental software can be confusing. But with CareStack, it's easy to see the many advantages of our all-in-one, cloud-based software. Many of CareStack's integrated features would be paid upgrades under other practice management software. (Or, even worse, would require 3rd party add-on software to achieve the same functionality.)
+                Choosing dental software can be confusing. But with DenStack, it's easy to see the many advantages of our all-in-one, cloud-based software. Many of DenStack's integrated features would be paid upgrades under other practice management software. (Or, even worse, would require 3rd party add-on software to achieve the same functionality.)
               </p>
 
               {/* Tab Buttons */}
@@ -165,7 +165,7 @@ export function ComparisonPage() {
                       <div className="w-6 h-6 bg-green-600 rounded flex items-center justify-center">
                         <span className="text-white font-bold text-sm">C</span>
                       </div>
-                      <span className="text-sm font-semibold text-gray-900">CareStack</span>
+                      <span className="text-sm font-semibold text-gray-900">DenStack</span>
                     </div>
                   </div>
                   <div className="text-center text-sm font-semibold text-gray-900 pb-3 border-b-2 border-gray-900">
