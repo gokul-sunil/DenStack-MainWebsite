@@ -9,7 +9,7 @@ import ClientLayout from './components/ClientLayout'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DenAlign - Premium Dental Practice Management',
+  title: 'DenStack - Premium Dental Practice Management',
   description: 'Enterprise-grade dental practice management software with AI capabilities',
 }
 

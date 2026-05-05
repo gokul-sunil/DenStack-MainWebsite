@@ -12,51 +12,40 @@ const contactMethods = [
   {
     icon: Phone,
     title: 'Call Us',
-    description: 'Mon-Fri 8am-8pm EST',
-    detail: '1-800-DENTCARE',
-    href: 'tel:1-800-DENTCARE',
+    description: 'Mon-Sat Business Hours',
+    detail: '+91 87140 32321',
+    href: 'tel:+918714032321',
   },
   {
     icon: Mail,
     title: 'Email Us',
-    description: 'We\'ll respond within 24 hours',
-    detail: 'connect@denstack.in',
-    href: 'mailto:connect@denstack.in',
+    description: "We'll respond within 24 hours",
+    detail: 'info@denstack.in',
+    href: 'mailto:info@denstack.in',
   },
   {
     icon: MessageSquare,
-    title: 'Live Chat',
-    description: 'Chat with our support team',
-    detail: 'Start a conversation',
+    title: 'Support',
+    description: 'Reach out for any queries',
+    detail: 'Contact our team',
     href: '#',
   },
   {
     icon: MapPin,
     title: 'Visit Us',
-    description: 'Our headquarters',
-    detail: '123 Healthcare Blvd, San Francisco, CA',
+    description: 'Our office location',
+    detail: 'Trivandrum, Kerala',
     href: '#',
   },
 ];
 
 const offices = [
   {
-    city: 'San Francisco',
-    address: '123 Healthcare Blvd, Suite 200',
-    phone: '+1 (415) 555-0100',
-    type: 'Headquarters',
-  },
-  {
-    city: 'New York',
-    address: '456 Madison Ave, 15th Floor',
-    phone: '+1 (212) 555-0100',
-    type: 'East Coast Office',
-  },
-  {
-    city: 'Austin',
-    address: '789 Tech Drive, Building C',
-    phone: '+1 (512) 555-0100',
-    type: 'Support Center',
+    city: 'Trivandrum',
+    address:
+      'Shamily Ventures Pvt Ltd, Thriuvonam Building, Trivandrum, Kerala - 695573, India',
+    phone: '+91 87140 32321',
+    type: 'Head Office',
   },
 ];
 
@@ -251,8 +240,8 @@ export function ContactPage() {
                   </div>
                   <div className="space-y-2">
                     <div className="flex justify-between">
-                      <span>Monday - Friday</span>
-                      <span className="font-medium">8:00 AM - 8:00 PM EST</span>
+                  <span>Monday - Saturday</span>
+                     <span className="font-medium">9:00 AM - 6:00 PM IST</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Saturday</span>

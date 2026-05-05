@@ -262,7 +262,7 @@ export function AboutPage() {
                 View Open Positions
               </a>
               <a
-                href="/company/contact"
+                href="/contact"
                 className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white/10 px-8 py-4 rounded-xl font-medium transition-colors"
               >
                 Contact Us
