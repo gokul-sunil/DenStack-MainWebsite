@@ -428,7 +428,7 @@ export function BookDemoPage() {
                         Privacy Policy
                       </a>{' '}
                       and{' '}
-                      <a href="#" className="text-lime-600 hover:underline">
+                      <a href="/terms" className="text-lime-600 hover:underline">
                         Terms of Service
                       </a>
                     </p>
