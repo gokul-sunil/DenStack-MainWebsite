@@ -8,6 +8,7 @@ const uaeFlagIcon = '/assets/9136fe1bd28fb7be513083775423e1518682dfab.png';
 const indiaFlagIcon = '/assets/2f5773e9e694ae10ab21271e6c2630d57fddbeb0.png';
 const denAlignLogo = '/assets/51132c9e1a264f6426509e988a49c2be42c8646c.png';
 const denSmileLogo = '/assets/a4649c8551c3b1acc7d432cb5caa962af9b3cd51.png';
+const denStackLogo='/assets/denstackLogo.png'
 
 interface NavItem {
   label: string;
@@ -19,7 +20,7 @@ interface NavItem {
 }
 
 const navigation: NavItem[] = [
-  { label: 'Home', page: 'home', isImage: true, imageSrc: denAlignLogo },
+  { label: 'Home', page: 'home', isImage: true, imageSrc: denStackLogo },
   {
     label: 'Product',
     megaMenu: true,
@@ -335,7 +336,7 @@ export function Header() {
                         <img 
                           src={item.imageSrc} 
                           alt={item.label} 
-                          className={item.label === 'Home' ? 'h-8 w-auto object-contain' : 'h-5 w-auto object-contain'} 
+                          className={item.label === 'Home' ? ' object-fill' : 'h-5 w-auto object-contain'} 
                         />
                       ) : (
                         item.label
