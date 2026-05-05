@@ -1,7 +1,7 @@
 import { PartnersPage } from '@/app/pages/PartnersPage';
 
 export const metadata = {
-  title: 'Partners | DenAlign',
+  title: 'Partners | DenStack',
   description: 'Explore our partner ecosystem and integration network',
 };
 

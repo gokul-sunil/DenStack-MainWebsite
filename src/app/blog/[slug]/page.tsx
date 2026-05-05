@@ -1,7 +1,7 @@
 import { BlogPostPage } from '@/app/pages/BlogPostPage';
 
 export const metadata = {
-  title: 'Blog Post | DenAlign',
+  title: 'Blog Post | DenStack',
   description: 'Read our latest insights and articles',
 };
 

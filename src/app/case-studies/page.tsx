@@ -1,8 +1,8 @@
 import { CaseStudiesPage } from '@/app/pages/CaseStudiesPage';
 
 export const metadata = {
-  title: 'Case Studies | DenAlign',
-  description: 'Read success stories from dental practices using DenAlign',
+  title: 'Case Studies | DenStack',
+  description: 'Read success stories from dental practices using DenStack',
 };
 
 export default function CaseStudies() {

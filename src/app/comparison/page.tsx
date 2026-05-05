@@ -1,8 +1,8 @@
 import { ComparisonPage } from '@/app/pages/ComparisonPage';
 
 export const metadata = {
-  title: 'Compare DenAlign | DenAlign',
-  description: 'See how DenAlign compares to traditional dental practice management solutions',
+  title: 'Compare DenStack | DenStack',
+  description: 'See how DenStack compares to traditional dental practice management solutions',
 };
 
 export default function Comparison() {

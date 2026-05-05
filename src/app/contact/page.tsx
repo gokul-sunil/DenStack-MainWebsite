@@ -1,8 +1,8 @@
 import { ContactPage } from '@/app/components/company/ContactPage';
 
 export const metadata = {
-  title: 'Contact Us | DenAlign',
-  description: 'Get in touch with the DenAlign team',
+  title: 'Contact Us | DenStack',
+  description: 'Get in touch with the DenStack team',
 };
 
 export default function Contact() {

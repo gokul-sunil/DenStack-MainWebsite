@@ -1,7 +1,7 @@
 import { DentalStartupsPage } from '@/app/pages/DentalStartupsPage';
 
 export const metadata = {
-  title: 'Dental Startups | DenAlign',
+  title: 'Dental Startups | DenStack',
   description: 'Solutions for dental practice startups',
 };
 

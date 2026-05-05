@@ -1,7 +1,7 @@
 import { BlogPage } from '@/app/components/resources/BlogPage';
 
 export const metadata = {
-  title: 'Blog | DenAlign',
+  title: 'Blog | DenStack',
   description: 'Insights and resources for dental practices',
 };
 

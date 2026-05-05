@@ -98,7 +98,7 @@ export function SocialProofSection() {
       <footer className="fixed bottom-0 left-0 right-0 bg-gray-900 text-white py-4 shadow-lg">
         <div className="max-w-[1200px] mx-auto px-6 text-center">
           <p className="text-sm text-gray-400">
-            © 2026 DenAlign. All rights reserved.
+            © 2026 DenStack. All rights reserved.
           </p>
         </div>
       </footer>

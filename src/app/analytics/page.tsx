@@ -1,7 +1,7 @@
 import { AnalyticsPage } from '@/app/pages/AnalyticsPage';
 
 export const metadata = {
-  title: 'Analytics | DenAlign',
+  title: 'Analytics | DenStack',
   description: 'Data-driven insights for your dental practice',
 };
 

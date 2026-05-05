@@ -6,7 +6,7 @@ import { Quote, Star } from 'lucide-react'
 
 const testimonials = [
   {
-    quote: "DenAlign transformed our practice. We've reduced administrative time by 40% and our patients love the streamlined experience.",
+    quote: "DenStack transformed our practice. We've reduced administrative time by 40% and our patients love the streamlined experience.",
     author: "Dr. Sarah Chen",
     role: "Lead Dentist",
     practice: "Bright Smiles Dental",
@@ -122,7 +122,7 @@ export default function TestimonialsSection() {
           className="text-center mt-16"
         >
           <p className="text-neutral-400 mb-4">
-            Join 5,000+ practices already using DenAlign
+            Join 5,000+ practices already using DenStack
           </p>
           <motion.button
             className="px-8 py-3 bg-transparent text-[#9FE870] rounded-lg border border-[#9FE870]/30 hover:bg-[#9FE870]/10 transition-all duration-300"

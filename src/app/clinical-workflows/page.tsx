@@ -1,7 +1,7 @@
 import { ClinicalWorkflowsPage } from '@/app/pages/ClinicalWorkflowsPage';
 
 export const metadata = {
-  title: 'Clinical Workflows | DenAlign',
+  title: 'Clinical Workflows | DenStack',
   description: 'Streamline clinical workflows in your dental practice',
 };
 

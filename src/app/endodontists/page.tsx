@@ -1,7 +1,7 @@
 import { EndodontistsPage } from '@/app/pages/EndodontistsPage';
 
 export const metadata = {
-  title: 'Endodontists | DenAlign',
+  title: 'Endodontists | DenStack',
   description: 'Solutions for endodontic practices',
 };
 

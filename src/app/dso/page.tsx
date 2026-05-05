@@ -1,7 +1,7 @@
 import { DSOPage } from '@/app/pages/DSOPage';
 
 export const metadata = {
-  title: 'DSO Solutions | DenAlign',
+  title: 'DSO Solutions | DenStack',
   description: 'Enterprise solutions for Dental Service Organizations',
 };
 

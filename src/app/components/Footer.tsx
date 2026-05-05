@@ -30,7 +30,7 @@ export default function Footer() {
               className="text-2xl text-white mb-4 inline-block"
             >
               <span className="bg-gradient-to-r from-[#9FE870] to-[#7dd84a] bg-clip-text text-transparent">
-                DenAlign
+                DenStack
               </span>
             </motion.div>
             <p className="text-neutral-400 text-sm leading-relaxed mb-6">
@@ -76,7 +76,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-neutral-500">
-            © 2026 DenAlign. All rights reserved.
+            © 2026 DenStack. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-neutral-500">
             <a href="#" className="hover:text-[#9FE870] transition-colors">

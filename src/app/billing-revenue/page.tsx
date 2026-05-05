@@ -1,7 +1,7 @@
 import { BillingRevenuePage } from '@/app/pages/BillingRevenuePage';
 
 export const metadata = {
-  title: 'Billing & Revenue | DenAlign',
+  title: 'Billing & Revenue | DenStack',
   description: 'Optimize your dental practice billing and revenue management',
 };
 

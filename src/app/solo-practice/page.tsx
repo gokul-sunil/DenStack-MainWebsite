@@ -1,7 +1,7 @@
 import { SoloPracticeSolutionPage } from '@/app/pages/SoloPracticeSolutionPage';
 
 export const metadata = {
-  title: 'Solo Practice Solutions | DenAlign',
+  title: 'Solo Practice Solutions | DenStack',
   description: 'Tailored solutions for solo dental practitioners',
 };
 

@@ -1,7 +1,7 @@
 import { SpecialtyClinicsPage } from '@/app/pages/SpecialtyClinicsPage';
 
 export const metadata = {
-  title: 'Specialty Clinics | DenAlign',
+  title: 'Specialty Clinics | DenStack',
   description: 'Solutions for specialty dental clinics',
 };
 

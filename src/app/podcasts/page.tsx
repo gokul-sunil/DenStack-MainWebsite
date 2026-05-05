@@ -1,7 +1,7 @@
 import { PodcastsPage } from '@/app/pages/PodcastsPage';
 
 export const metadata = {
-  title: 'Podcasts | DenAlign',
+  title: 'Podcasts | DenStack',
   description: 'Listen to dental industry insights and expert interviews',
 };
 

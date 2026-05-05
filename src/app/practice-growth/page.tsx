@@ -1,8 +1,8 @@
 import { PracticeGrowthPage } from '@/app/pages/PracticeGrowthPage';
 
 export const metadata = {
-  title: 'Practice Growth | DenAlign',
-  description: 'Grow your dental practice with DenAlign',
+  title: 'Practice Growth | DenStack',
+  description: 'Grow your dental practice with DenStack',
 };
 
 export default function PracticeGrowth() {

@@ -1,7 +1,7 @@
 import { CareersPage } from '@/app/pages/CareersPage';
 
 export const metadata = {
-  title: 'Careers | DenAlign',
+  title: 'Careers | DenStack',
   description: 'Join our team and help transform dental practice management',
 };
 

@@ -1,8 +1,8 @@
 import { PatientExperiencePage } from '@/app/pages/PatientExperiencePage';
 
 export const metadata = {
-  title: 'Patient Experience | DenAlign',
-  description: 'Enhance patient experience with DenAlign',
+  title: 'Patient Experience | DenStack',
+  description: 'Enhance patient experience with DenStack',
 };
 
 export default function PatientExperience() {

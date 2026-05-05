@@ -57,7 +57,7 @@ export default function CTASection() {
             </span>
           </h2>
           <p className="text-xl text-neutral-400 mb-12 max-w-2xl mx-auto">
-            Join thousands of dental practices already using DenAlign to deliver exceptional patient care
+            Join thousands of dental practices already using DenStack to deliver exceptional patient care
           </p>
 
           {/* Benefits List */}
